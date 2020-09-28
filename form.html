@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Application form</title>
+</head>
+<body bgcolor="pink">
+<h1>FORM</h1>                                                                                  
+<form name="frmApplicationForm" action="jaibhole.html" method="get">
+<h2>Application Form</h2>
+<p>Name: </p>
+<input type="text" name="txtNYame" id="txtNYame" value="" placeholder="Enter your name"/>
+<p>Fathers Name</p>
+<input type="text" name="txtFathersName" id="txtFathersName" value="" placeholder="Enter your papa ka name"/>
+<p>Mother Name</p>
+<input type="text" name="txtMotherName" id="txtMotherName" value="" placeholder="Enter your mother's name"/>
+<p> Password </p>
+<input type="password" name="pwdUser" id="pwdUser" value="" placeholder="Enter the password" required/>
+<p>Confirm password </p>
+<input type="password" name="pwdConfirm" id="pwdConfirm" value="" placeholder="Confirm the password" required/>
+<p> Gender </p>
+<input type="radio" name="rdbGender" id="rdbGender" value="m"/>Male
+<input type="radio" name="rdbGender" id="rdbGender" value="f"/>Female
+<input type="radio" name="rdbGender" id="rdbGender" value="o"/>Others
+<p> Are You Physically Challenged </p>
+<input type="radio" name="rdbPhysicallyChallenged" id="rdbPhysicallyChallenged" value="y"/> Yes
+<input type="radio" name="rdbPhysicallyChallenged" id="rdbPhysicallyChallenged" value="n" checked/> No
+<p>Software Skills : </p>
+<input type="checkbox" name="chkSoftwareKnowledge" id="chkSoftwareKnowledge" value="C" checked/> C </br>
+<input type="checkbox" name="chkSoftwareKnowledge" id="chkSoftwareKnowledge" value="cpp"/> C++ </br>
+<input type="checkbox" name="chkSoftwareKnowledge" id="chkSoftwareKnowledge" value="j"/>Java </br>
+<input type="checkbox" name="chkSoftwareKnowledge" id="chkSoftwareKnowledge" value="p"/>PHP </br>
+<input type="checkbox" name="chkSoftwareKnowledge" id="chkSoftwareKnowledge" value="js"/>Javascript </br>
+<input type="checkbox" name="chkSoftwareKnowledge" id="chkSoftwareKnowledge" value="h"/>HTML </br>
+<p> Select Your Country </p>
+<select name="slctQualification">
+<option value="pak"> Pakistan </option>
+<option value="ind"> India </option>
+<option value="us"> USA </option>
+<option value="jap">Japan</option>
+<option value="rus"> Russia </option>
+<option value="isr"> Israel </option>
+<option value="sr"> Sri Lanka </option>
+<option value="aussie"> Australia </option>
+<option value="nz"> New Zealand </option>
+<option value="wi">West Indies</option>
+<option value="eng">England </option>
+</select>
+<p> Address </p>
+<textarea rows="10 " cols="80" wrap="physical"> </textarea> </br>
+<input type="submit" value="SUBMIT"/> 
+<input type="reset" value="RESET"/>
+</body>
+</html>
